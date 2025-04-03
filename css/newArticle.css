@@ -27,6 +27,18 @@ body {
     gap: 15px;
     align-items: center;
 }
+
+input[type="file"] {
+  display: none;
+}
+
+.custom-file-upload {
+  border: 1px solid #ccc;
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
 button{
     background-color: green;
     color: white;
@@ -34,4 +46,5 @@ button{
     height: 35px;
     border: 1px solid green;
     border-radius: 5px;
+    margin-top: 20px;
 }
