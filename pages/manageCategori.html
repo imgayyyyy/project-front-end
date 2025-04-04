@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel</title>
+    <link rel="stylesheet" href="/css/manageCategories.css">
+</head>
+
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <button class="sidebar-btn" onclick="home()"> <i class="fa-solid fa-users"></i> Manage Users</button>
+            <button class="sidebar-btn" onclick="entries()"> <i class="fa-solid fa-book"></i> Manage Entries</button>
+            <button class="sidebar-btn"> <i class="fa-solid fa-book-open"></i> Manage Articles</button>
+            <button class="sidebar-btn" onclick="back()"><i class="fa-solid fa-right-from-bracket"></i> Log out</button>
+        </aside>
+
+        <div class="header">
+            <input type="text" placeholder="Search Article Categories" class="search">
+            <h2 class="h2com">📂 Manage Categories</h2>
+            <label for="category-name" class="label-com">Category Name:</label> <br>
+            <input type="text" id="category-name" placeholder="Enter Category Name" class="search-bar"><br><br>
+            <button class="btn-header">Add Category</button>
+            <p class="h2com" style="font-size: 16px;">📋 Category List</p>
+            <table border="1" cellpadding="10" cellspacing="0" class="table-com">
+                <tr>
+                    <th>#</th>
+                    <th>Category Name</th>
+                    <th>Actions</th>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>
